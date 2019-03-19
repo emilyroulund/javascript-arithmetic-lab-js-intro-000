@@ -3,14 +3,14 @@ function add (a, b){
 }
 
 function subtract (a, b){ 
-  return a - b ; 
+  return a -= b ; 
 }
 function multiply (a, b){ 
-  return a * b ; 
+  return a *= b ; 
 }
 
 function divide (a, b){ 
-  return a / b ; 
+  return a /= b ; 
 }
 
 function inc(n){
@@ -29,7 +29,10 @@ function makeInt(n){
 }
 
 function makeInt(n){
-  
-}function makeInt(n){
+  parseInt(n)
+}
+
+function preserveDecimal(n){
+  return parseFloat(n)
   
 }
